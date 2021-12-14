@@ -1,0 +1,149 @@
+/*inicio*/
+body{
+    background-image: url("image/botanica1.jpg");
+    background-size: cover;
+}
+nav ul li{
+    display: inline-block;
+    padding: 8px;
+    transition: all 1s;
+    &:hover{
+        transform: scale(1.4)
+    }
+    
+} 
+
+nav ul li a{
+    display: block;
+    padding: 5px;
+}
+
+.nav-inicio{
+    height: 30px;
+    background-color:saddlebrown;
+    }
+    
+.img-head{
+    width: 8%;
+    position: absolute;
+    top: 33px;
+    right: 0px;
+    border-radius: 50px;
+    
+}
+
+
+
+.header-1{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+
+
+
+
+.img-main{
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+.parrafo-inicio{
+    margin: 40px;
+    bottom: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(59, 57, 57);
+    padding-bottom: 40px;
+
+}
+
+.titulo-product{
+    text-align: center;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-productos{
+    display: flex;
+    justify-content: center;
+    &:hover{
+        transform: scale(1.2);
+        transition: all 1s;
+    }
+}
+
+.item-productos{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre-productos{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.names{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-1{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 34px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.contact{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    &:hover{
+        transform: scale(1.5);
+        transition: all 1s;
+    }
+}
+p{
+    color: aliceblue;
+    font-size: 22px;
+}
+
+#contacto{
+    background-image: url("image/IMG_1869.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px
+    
+
+}
+
+.carousel-inicio{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+/*fin inicio*/

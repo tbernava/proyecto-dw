@@ -1,0 +1,11 @@
+$colores: 
+black
+white;
+
+.parrafo-nosotros, .parrafo-servicios, .titulos, .footer-1, .p{
+    color: nth($colores, 1);
+};
+
+.nav-inicio{
+    color: nth($colores, 2);
+};

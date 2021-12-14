@@ -1,0 +1,9 @@
+$font-parrafos:(
+    font-family-parrafos: Georgia,
+    font-size-parrafos: 30px,
+);
+
+.parrafo-inicio, .nombre-productos, .footer-1, .contact, .parrafo-nosotros, .parrafo-servicios{
+    font-family: map-get($font-parrafos, font-family-parrafos);
+    font-size: map-get($font-parrafos, font-size-parrafos);
+}
